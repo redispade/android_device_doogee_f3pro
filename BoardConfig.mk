@@ -19,6 +19,20 @@ LOCAL_PATH := device/doogee/f3_pro
 TARGET_BOARD_PLATFORM := mt6753
 TARGET_BOOTLOADER_BOARD_NAME := hct6753_35gu_l1
 
+# LZMA compression for recovery's & kernel ramdisk....
+LZMA_RAMDISK_TARGETS := recovery
+
+TW_DEVICE_VERSION := 0-F3_PRO by redispade
+
+# exclude Twrp app
+TW_EXCLUDE_TWRPAPP := true
+
+# Use ro.product.model
+TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
+
+#adbd insecure
+BOARD_ALWAYS_INSECURE := true
+
 # Recovery
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 7843840
