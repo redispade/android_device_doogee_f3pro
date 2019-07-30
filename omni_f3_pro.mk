@@ -16,7 +16,7 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 PRODUCT_DEVICE := f3_pro
-PRODUCT_NAME := f3_pro
+PRODUCT_NAME := omni_f3_pro
 PRODUCT_BRAND := Doogee
 PRODUCT_MODEL := F3_Pro
 PRODUCT_MANUFACTURER := Doogee
